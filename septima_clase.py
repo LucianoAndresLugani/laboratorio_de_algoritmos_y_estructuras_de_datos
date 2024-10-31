@@ -313,6 +313,20 @@ print(Nieto.mro())
 # Completa el código suministrado a continuación para lograrlo
 
 
+class Padre():
+    def trabajar(self):
+        print("Trabajando en el Hospital")
+
+    def reir(self):
+        print("Ja ja ja!")
+
+class Madre():
+    def trabajar(self):
+        print("Trabajando en la Fiscalía")
+        
+class Hija(COMPLETAR):
+    COMPLETAR
+
 
 
 # Práctica Herencia Extendida 1
